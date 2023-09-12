@@ -1,18 +1,22 @@
-import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import React, { Component } from "react";
+import { View, Text, StatusBar } from "react-native";
+import Colors from "./src/Resources/Color";
+import HomeScreen from "./src/Screens/HomeScreen";
 
-export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
+    }
 
-  render() {
-    return (
-      <View>
-        <Text> App </Text>
-      </View>
-    );
-  }
+    render() {
+        return (
+            <View>
+                <StatusBar backgroundColor={Colors.main} />
+                <HomeScreen />
+            </View>
+        );
+    }
 }
+
+export default App;
