@@ -1,21 +1,18 @@
-import React, { Component } from "react";
-import {
-    Box,
-    NativeBaseProvider,
-    Text,
-} from "native-base";
-import { StyleSheet } from "react-native";
+import { View, Text } from "react-native";
+import React from "react";
+import HomeSearch from "../Components/HomeSearch";
+import HomeProducts from "../Components/HomeProducts";
+import { Box, NativeBaseProvider } from "native-base";
 
-export default class HomeScreen extends Component {
-    render() {
-        return (
-            <NativeBaseProvider>
-                <Box flex={1}>
-                    <Text>HomeScreen</Text>
-                </Box>
-            </NativeBaseProvider>
-        );
-    }
-}
+const HomeScreen = () => {
+    return (
+        <NativeBaseProvider>
+            <Box flex={1}>
+                <HomeSearch />
+                <HomeProducts />
+            </Box>
+        </NativeBaseProvider>
+    );
+};
 
-const styles = StyleSheet.create({});
+export default HomeScreen;

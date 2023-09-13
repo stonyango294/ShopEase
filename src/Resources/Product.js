@@ -1,12 +1,12 @@
 // const { Image } = require("react-native");
 
-const products = [
+const product = [
     {
       id: '1',
       name: 'Ballerinas assumenda soluta iusto nostrum odio',
-      image: require('../../assets/product-1.jpg'),
+      image: require('../../assets/product-1.png'),
       description: 'Lorem ipum dolor sit ammet. Dummy Text',
-      price: 30,
+      price: 1115,
       countInStock: 57,
       rating: 3,
       numOfReviews: 256,
@@ -14,9 +14,9 @@ const products = [
     {
       id: '2',
       name: 'Velcro Ballerinas',
-      image: require('../../assets/product-2.jpg'),
+      image: require('../../assets/product-2.png'),
       description: 'Lorem ipum dolor sit ammet. Dummy Text',
-      price: 15,
+      price: 783,
       countInStock: 84,
       rating: 4.1,
       numOfReviews: 81,
@@ -24,9 +24,9 @@ const products = [
     {
       id: '3',
       name: 'Neque assumenda soluta iusto nostrum odio',
-      image: require('../../assets/product-3.jpg'),
+      image: require('../../assets/product-3.png'),
       description: 'Lorem ipum dolor sit ammet. Dummy Text',
-      price: 45,
+      price: 423,
       countInStock: 37,
       rating: 3.2,
       numOfReviews: 302,
@@ -34,9 +34,9 @@ const products = [
     {
       id: '4',
       name: 'Soluta iusto nostrum odio Velcro Ballerinas',
-      image: require('../../assets/product-4.jpg'),
+      image: require('../../assets/product-4.png'),
       description: 'Lorem ipum dolor sit ammet. Dummy Text',
-      price: 59,
+      price: 583,
       countInStock: 99,
       rating: 3.7,
       numOfReviews: 106,
@@ -44,9 +44,9 @@ const products = [
     {
       id: '5',
       name: 'Odio Neque assumenda soluta iusto nostrum odio',
-      image: require('../../assets/product-5.jpg'),
+      image: require('../../assets/product-5.png'),
       description: 'Lorem ipum dolor sit ammet. Dummy Text',
-      price: 24,
+      price: 243,
       countInStock: 22,
       rating: 4.5,
       numOfReviews: 41,
@@ -54,9 +54,9 @@ const products = [
     {
       id: '6',
       name: 'Neque assumenda soluta iusto nostrum odio elcro Ballerinas',
-      image: require('../../assets/product-6.jpg'),
+      image: require('../../assets/product-6.png'),
       description: 'Lorem ipum dolor sit ammet. Dummy Text',
-      price: 13,
+      price: 933,
       countInStock: 113,
       rating: 4.6,
       numOfReviews: 49,
@@ -64,9 +64,9 @@ const products = [
     {
       id: '7',
       name: 'Velcro Ballerinas Neque assumenda soluta',
-      image: require('../../assets/product-7.jpg'),
+      image: require('../../assets/product-7.png'),
       description: 'Lorem ipum dolor sit ammet. Dummy Text',
-      price: 38,
+      price: 1383,
       countInStock: 93,
       rating: 3.8,
       numOfReviews: 223,
@@ -74,9 +74,9 @@ const products = [
     {
       id: '8',
       name: 'Velcro Ballerinas',
-      image: require('../../assets/product-8.jpg'),
+      image: require('../../assets/product-8.png'),
       description: 'Lorem ipum dolor sit ammet. Dummy Text',
-      price: 49,
+      price: 1493,
       countInStock: 33,
       rating: 4.1,
       numOfReviews: 142,
@@ -84,9 +84,9 @@ const products = [
     {
       id: '9',
       name: 'Ballerinas Neque assumenda soluta iusto nostrum odio',
-      image: require('../../assets/product-9.jpg'),
+      image: require('../../assets/product-9.png'),
       description: 'Lorem ipum dolor sit ammet. Dummy Text',
-      price: 55,
+      price: 553,
       countInStock: 3,
       rating: 4.5,
       numOfReviews: 74,
@@ -94,9 +94,9 @@ const products = [
     {
       id: '10',
       name: 'Assumenda soluta iusto nostrum odio',
-      image: require('../../assets/product-10.jpg'),
+      image: require('../../assets/product-10.png'),
       description: 'Lorem ipum dolor sit ammet. Dummy Text',
-      price: 37,
+      price: 373,
       countInStock: 75,
       rating: 3.4,
       numOfReviews: 332,
@@ -104,9 +104,9 @@ const products = [
     {
       id: '11',
       name: 'Velcro Neque assumenda soluta iusto nostrum odio Ballerinas',
-      image: require('../../assets/product-11.jpg'),
+      image: require('../../assets/product-11.png'),
       description: 'Lorem ipum dolor sit ammet. Dummy Text',
-      price: 54,
+      price: 515,
       countInStock: 13,
       rating: 3.6,
       numOfReviews: 421,
@@ -114,9 +114,9 @@ const products = [
     {
       id: '12',
       name: 'Iusto nostrum odio neque assumenda soluta iusto nostrum odio',
-      image: require('../../assets/product-12.jpg'),
+      image: require('../../assets/product-12.png'),
       description: 'Lorem ipum dolor sit ammet. Dummy Text',
-      price: 49,
+      price: 483,
       countInStock: 31,
       rating: 4.6,
       numOfReviews: 91,
@@ -132,4 +132,4 @@ const products = [
   //     }
   // ]
   
-  export default products;
+  export default product;
